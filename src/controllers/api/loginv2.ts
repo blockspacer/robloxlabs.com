@@ -2,10 +2,10 @@
 	FileName: loginV2.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://api.mfdlabs.com/auth/v2/login,
-				 deprecated for https://www.mfdlabs.com/Authentication/Login.fxhx
+	Description: https://api.sitetest1.mfdlabs.com/auth/v2/login,
+				 deprecated for https://www.sitetest1.mfdlabs.com/Authentication/Login.fxhx
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -136,7 +136,7 @@ export default {
 			response
 				.status(200)
 				.cookie('authId', authId, {
-					domain: 'mfdlabs.com',
+					domain: 'sitetest1.mfdlabs.com',
 					expires: new Date('2050'),
 					httpOnly: false,
 				})

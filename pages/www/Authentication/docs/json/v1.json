@@ -1,7 +1,7 @@
 {
 	"swagger": "2.0",
 	"info": { "version": "v1", "title": "WWW Auth Api v1" },
-	"host": "www.mfdlabs.com",
+	"host": "www.sitetest1.mfdlabs.com",
 	"schemes": ["https", "http"],
 	"paths": {
 		"/Authentication/Login.fxhx": {
@@ -118,7 +118,7 @@
 					"400": {
 						"description": "AuthId not supplied"
 					},
-					"403": {
+					"404": {
 						"description": "AuthId not found"
 					}
 				},

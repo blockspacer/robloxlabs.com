@@ -964,7 +964,7 @@
 	div.content
 	div.sandbox_header
 	span.response_throbber {
-	background-image: url(https://images.mfdlabs.com/throbber-gif);
+	background-image: url(https://images.sitetest1.mfdlabs.com/throbber-gif);
 	width: 128px;
 	height: 16px;
 	display: block;
@@ -1749,7 +1749,7 @@
 	height: 18px;
 	vertical-align: middle;
 	display: inline-block;
-	background: url(https://images.mfdlabs.com/explorer_icons.png) no-repeat;
+	background: url(https://images.sitetest1.mfdlabs.com/explorer_icons.png) no-repeat;
 }
 .swagger-section .authorize__btn_operation_login {
 	background-position: 0 0;

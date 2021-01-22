@@ -1,13 +1,13 @@
 {
 	"swagger": "2.0",
 	"info": { "version": "v1", "title": "Root Api v1" },
-	"host": "api.mfdlabs.com",
+	"host": "api.sitetest1.mfdlabs.com",
 	"schemes": ["https", "http"],
 	"paths": {
 		"/uptime": {
 			"get": {
 				"tags": ["Tests"],
-				"summary": "First endpoint on mfdlabs.com.",
+				"summary": "First endpoint on sitetest1.mfdlabs.com.",
 				"consumes": [],
 				"produces": ["application/json", "text/json"],
 				"parameters": [],

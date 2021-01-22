@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: js 404 middleware
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -53,7 +53,7 @@ export default (
 			.contentType('text/xml')
 			.send(
 				`<Error><Code>AccessDenied</Code><Message>Access to ${
-					'https://js.mfdlabs.com' + escape(req.url)
+					'https://js.sitetest1.mfdlabs.com' + escape(req.url)
 				} has been denied.</Message><HostId>${crypto
 					.createHash('sha256')
 					.update(crypto.randomBytes(1000))
@@ -65,7 +65,7 @@ export default (
 			.contentType('text/xml')
 			.send(
 				`<Error><Code>AccessDenied</Code><Message>Access to ${
-					'https://js.mfdlabs.com' + escape(req.url)
+					'https://js.sitetest1.mfdlabs.com' + escape(req.url)
 				} has been denied.</Message><HostId>${crypto
 					.createHash('sha256')
 					.update(crypto.randomBytes(1000))

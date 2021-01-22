@@ -1,7 +1,7 @@
 {
 	"swagger": "2.0",
 	"info": { "version": "v1", "title": "CSRF Api v1" },
-	"host": "api.mfdlabs.com",
+	"host": "api.sitetest1.mfdlabs.com",
 	"schemes": ["https", "http"],
 	"paths": {
 		"/csrf/v1/get-csrf-token": {

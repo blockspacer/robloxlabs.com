@@ -2,9 +2,9 @@
 	FileName: Visit.ashx.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://assetgame.mfdlabs.com/game/Visit.ashx
+	Description: https://assetgame.sitetest1.mfdlabs.com/game/Visit.ashx
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -45,30 +45,30 @@ local message = Instance.new("Message")
 message.Parent = workspace
 message.archivable = false
 
-game:GetService("ScriptInformationProvider"):SetAssetUrl("http://assetgame.mfdlabs.com/Asset/")
+game:GetService("ScriptInformationProvider"):SetAssetUrl("http://assetgame.sitetest1.mfdlabs.com/Asset/")
 game:GetService("ContentProvider"):SetThreadPool(16)
-pcall(function() game:GetService("InsertService"):SetFreeModelUrl("http://assetgame.mfdlabs.com/Game/Tools/InsertAsset.ashx?type=fm&q=%s&pg=%d&rs=%d") end) -- Used for free model search (insert tool)
-pcall(function() game:GetService("InsertService"):SetFreeDecalUrl("http://assetgame.mfdlabs.com/Game/Tools/InsertAsset.ashx?type=fd&q=%s&pg=%d&rs=%d") end) -- Used for free decal search (insert tool)
+pcall(function() game:GetService("InsertService"):SetFreeModelUrl("http://assetgame.sitetest1.mfdlabs.com/Game/Tools/InsertAsset.ashx?type=fm&q=%s&pg=%d&rs=%d") end) -- Used for free model search (insert tool)
+pcall(function() game:GetService("InsertService"):SetFreeDecalUrl("http://assetgame.sitetest1.mfdlabs.com/Game/Tools/InsertAsset.ashx?type=fd&q=%s&pg=%d&rs=%d") end) -- Used for free decal search (insert tool)
 
 ifSeleniumThenSetCookie("SeleniumTest2", "Set URL service")
 
 settings().Diagnostics:LegacyScriptMode()
 
-game:GetService("InsertService"):SetBaseSetsUrl("http://assetgame.mfdlabs.com/Game/Tools/InsertAsset.ashx?nsets=10&type=base")
-game:GetService("InsertService"):SetUserSetsUrl("http://assetgame.mfdlabs.com/Game/Tools/InsertAsset.ashx?nsets=20&type=user&userid=%d")
-game:GetService("InsertService"):SetCollectionUrl("http://assetgame.mfdlabs.com/Game/Tools/InsertAsset.ashx?sid=%d")
-game:GetService("InsertService"):SetAssetUrl("http://assetgame.mfdlabs.com/Asset/?id=%d")
-game:GetService("InsertService"):SetAssetVersionUrl("http://assetgame.mfdlabs.com/Asset/?assetversionid=%d")
+game:GetService("InsertService"):SetBaseSetsUrl("http://assetgame.sitetest1.mfdlabs.com/Game/Tools/InsertAsset.ashx?nsets=10&type=base")
+game:GetService("InsertService"):SetUserSetsUrl("http://assetgame.sitetest1.mfdlabs.com/Game/Tools/InsertAsset.ashx?nsets=20&type=user&userid=%d")
+game:GetService("InsertService"):SetCollectionUrl("http://assetgame.sitetest1.mfdlabs.com/Game/Tools/InsertAsset.ashx?sid=%d")
+game:GetService("InsertService"):SetAssetUrl("http://assetgame.sitetest1.mfdlabs.com/Asset/?id=%d")
+game:GetService("InsertService"):SetAssetVersionUrl("http://assetgame.sitetest1.mfdlabs.com/Asset/?assetversionid=%d")
 
-pcall(function() game:GetService("SocialService"):SetFriendUrl("http://assetgame.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsFriendsWith&playerid=%d&userid=%d") end)
-pcall(function() game:GetService("SocialService"):SetBestFriendUrl("http://assetgame.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsBestFriendsWith&playerid=%d&userid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupUrl("http://assetgame.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsInGroup&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupRankUrl("http://assetgame.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRank&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("SocialService"):SetGroupRoleUrl("http://assetgame.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRole&playerid=%d&groupid=%d") end)
-pcall(function() game:GetService("GamePassService"):SetPlayerHasPassUrl("http://assetgame.mfdlabs.com/Game/GamePass/GamePassHandler.ashx?Action=HasPass&UserID=%d&PassID=%d") end)
-pcall(function() game:GetService("MarketplaceService"):SetProductInfoUrl("https://api.mfdlabs.com/marketplace/productinfo?assetId=%d") end)
-pcall(function() game:GetService("MarketplaceService"):SetDevProductInfoUrl("https://api.mfdlabs.com/marketplace/productDetails?productId=%d") end)
-pcall(function() game:GetService("MarketplaceService"):SetPlayerOwnsAssetUrl("https://api.mfdlabs.com/ownership/hasasset?userId=%d&assetId=%d") end)
+pcall(function() game:GetService("SocialService"):SetFriendUrl("http://assetgame.sitetest1.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsFriendsWith&playerid=%d&userid=%d") end)
+pcall(function() game:GetService("SocialService"):SetBestFriendUrl("http://assetgame.sitetest1.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsBestFriendsWith&playerid=%d&userid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupUrl("http://assetgame.sitetest1.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=IsInGroup&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupRankUrl("http://assetgame.sitetest1.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRank&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("SocialService"):SetGroupRoleUrl("http://assetgame.sitetest1.mfdlabs.com/Game/LuaWebService/HandleSocialRequest.ashx?method=GetGroupRole&playerid=%d&groupid=%d") end)
+pcall(function() game:GetService("GamePassService"):SetPlayerHasPassUrl("http://assetgame.sitetest1.mfdlabs.com/Game/GamePass/GamePassHandler.ashx?Action=HasPass&UserID=%d&PassID=%d") end)
+pcall(function() game:GetService("MarketplaceService"):SetProductInfoUrl("https://api.sitetest1.mfdlabs.com/marketplace/productinfo?assetId=%d") end)
+pcall(function() game:GetService("MarketplaceService"):SetDevProductInfoUrl("https://api.sitetest1.mfdlabs.com/marketplace/productDetails?productId=%d") end)
+pcall(function() game:GetService("MarketplaceService"):SetPlayerOwnsAssetUrl("https://api.sitetest1.mfdlabs.com/ownership/hasasset?userId=%d&assetId=%d") end)
 pcall(function() game:SetCreatorID(0, Enum.CreatorType.User) end)
 
 ifSeleniumThenSetCookie("SeleniumTest3", "Set creator ID")
@@ -93,7 +93,7 @@ pcall(function() settings().Rendering.EnableFRM = true end)
 pcall(function() settings()["Task Scheduler"].PriorityMethod = Enum.PriorityMethod.AccumulatedError end)
 
 game:GetService("ChangeHistoryService"):SetEnabled(false)
-pcall(function() game:GetService("Players"):SetBuildUserPermissionsUrl("http://assetgame.mfdlabs.com//Game/BuildActionPermissionCheck.ashx?assetId=0&userId=%d&isSolo=true") end)
+pcall(function() game:GetService("Players"):SetBuildUserPermissionsUrl("http://assetgame.sitetest1.mfdlabs.com//Game/BuildActionPermissionCheck.ashx?assetId=0&userId=%d&isSolo=true") end)
 
 workspace:SetPhysicsThrottleEnabled(true)
 
@@ -133,7 +133,7 @@ function doVisit()
 	else
 		player = game:GetService("Players"):CreateLocalPlayer(0)
 	end
-	player.CharacterAppearance = "http://assetgame.mfdlabs.com/Asset/CharacterFetch.ashx?userId=1&placeId=0"
+	player.CharacterAppearance = "http://assetgame.sitetest1.mfdlabs.com/Asset/CharacterFetch.ashx?userId=1&placeId=0"
 	local propExists, canAutoLoadChar = false
 	propExists = pcall(function()  canAutoLoadChar = game.Players.CharacterAutoLoads end)
 
@@ -149,7 +149,7 @@ function doVisit()
 	
 	if not inStudio and false then
 		message.Text = "Setting Ping"
-		visit:SetPing("http://assetgame.mfdlabs.com/Game/ClientPresence.ashx?version=old&PlaceID=0", 120)
+		visit:SetPing("http://assetgame.sitetest1.mfdlabs.com/Game/ClientPresence.ashx?version=old&PlaceID=0", 120)
 
 		message.Text = "Sending Stats"
 		game:HttpGet("")
@@ -183,7 +183,7 @@ else
 	message.Text = "Error on visit: " .. err
 	if not inStudio then
 		if false then
-			game:HttpPost("https://data.mfdlabs.com/Error/Lua.ashx", "Visit.lua: " .. err)
+			game:HttpPost("https://data.sitetest1.mfdlabs.com/Error/Lua.ashx", "Visit.lua: " .. err)
 		end
 	end
 end

@@ -10,12 +10,12 @@
 				Jack Daniels Alan,
 				Alanska Ivanski Vosproshchniki
 	File Type: Script
-	Description: The 2nd version of mfdlabs.com (uses a mfdlabs domain).
+	Description: The 2nd version of sitetest1.mfdlabs.com (uses a sitetest1.mfdlabs domain).
 					This one is for testing new endpoints and features (such as controllers).
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
-	NOTICE This Application Programming Interface will be hosted on both https://*mfdlabs.com:443 and http://*mfdlabs.com:80.
+	NOTICE This Application Programming Interface will be hosted on both https://*sitetest1.mfdlabs.com:443 and http://*sitetest1.mfdlabs.com:80.
 	DEPRECATED DO NOT USE OutgoingMessage.prototype._headers
 
 	***

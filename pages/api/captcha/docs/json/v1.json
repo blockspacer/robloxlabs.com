@@ -1,7 +1,7 @@
 {
 	"swagger": "2.0",
 	"info": { "version": "v1", "title": "Captcha Api v1" },
-	"host": "api.mfdlabs.com",
+	"host": "api.sitetest1.mfdlabs.com",
 	"schemes": ["https", "http"],
 	"paths": {
 		"/captcha/v1/get-image-hashes": {
@@ -87,7 +87,7 @@
 				},
 				"imageUri": {
 					"type": "string",
-					"example": "https://ti.mfdlabs.com/..."
+					"example": "https://ti.sitetest1.mfdlabs.com/..."
 				}
 			}
 		}

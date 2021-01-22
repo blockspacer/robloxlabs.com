@@ -7,7 +7,7 @@
 
 # About
 
-mfdlabs.com is a site that allows mfd engineers to test new features, it is never guaranteed that this will be up at all times.
+sitetest1.mfdlabs.com is a site that allows mfd engineers to test new features, it is never guaranteed that this will be up at all times.
 
 This branch is for tests of sessionsv2, and many other things that are too unstable for the main branch.
 
@@ -16,8 +16,8 @@ This branch is for tests of sessionsv2, and many other things that are too unsta
 You will have to clone the repository and add all the folders and files that this complains about.
 
 ```bash
-# Run this to install mfdlabs.com 
-$ git clone https://github.com/mfd-core/mfdlabs.com.git
+# Run this to install sitetest1.mfdlabs.com
+$ git clone https://github.com/mfd-core/sitetest1.mfdlabs.com.git
 ```
 
 That's it!

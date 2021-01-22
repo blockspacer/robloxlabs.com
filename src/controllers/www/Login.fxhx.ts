@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: The current Login function.
 			
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -26,7 +26,7 @@
 */
 
 /* 
-POST https://www.mfdlabs.com/Authentication/Login.fxhx HTTP/2.0
+POST https://www.sitetest1.mfdlabs.com/Authentication/Login.fxhx HTTP/2.0
 X-CSRF-TOKEN: token123
 Content-Type: application/x-www-form-urlencoded
 Connection: close
@@ -158,7 +158,7 @@ export default {
 			.status(200)
 			.cookie('authId', authId, {
 				maxAge: DFInt['WWWAuthV1MaxAuthIdAge'],
-				domain: 'mfdlabs.com',
+				domain: 'sitetest1.mfdlabs.com',
 				secure: true,
 				sameSite: 'lax',
 				httpOnly: true,

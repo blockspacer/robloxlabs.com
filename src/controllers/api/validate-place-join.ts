@@ -2,9 +2,9 @@
 	FileName: validate-place-join.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://api.mfdlabs.com/universes/validate-place-join
+	Description: https://api.sitetest1.mfdlabs.com/universes/validate-place-join
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 

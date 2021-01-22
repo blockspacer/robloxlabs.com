@@ -1,4 +1,4 @@
-// -a "http://api.mfdlabs.com/Login/Negotiate.ashx" -t "bruh" -j "http://assetgame.mfdlabs.com/Game/PlaceLauncher.ashx"
+// -a "http://api.sitetest1.mfdlabs.com/Login/Negotiate.ashx" -t "bruh" -j "http://assetgame.sitetest1.mfdlabs.com/Game/PlaceLauncher.ashx"
 export default {
 	dir: '/Setting/QuietGet/:group/',
 	method: 'all',
@@ -397,7 +397,7 @@ export default {
 			SFFlagGuid64Bit: 'False',
 			FIntValidateLauncherPercent: '100',
 			FFlagCSGDataLossFixEnabled: 'True',
-			DFStringRobloxAnalyticsURL: 'http://ecsv2.mfdlabs.com/',
+			DFStringRobloxAnalyticsURL: 'http://ecsv2.sitetest1.mfdlabs.com/',
 			DFFlagDataStoresV2Enabled: true,
 			DFFlagRobloxAnalyticsTrackingEnabled: 'True',
 			FFlagStudioOpenLastSaved: 'False',

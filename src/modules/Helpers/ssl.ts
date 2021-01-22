@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: Wrapper for SSL servers and HTTP servers, used as a helper.
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -40,7 +40,7 @@ export = (app: IApplicationBuilder, name: string): [HttpServer, HttpsServer] => 
 		const httpsServer = https2
 			.createServer(
 				{
-					cert: filestream.readFileSync(_sslname + '\\mfdlabs.crt', 'utf-8'),
+					cert: filestream.readFileSync(_sslname + '\\sitetest1.mfdlabs.crt', 'utf-8'),
 					key: filestream.readFileSync(_sslname + '\\mfdlabsprivate.key', 'utf-8'),
 					passphrase: process.env['mfdlabs_pc'],
 					maxVersion: 'TLSv1.3',

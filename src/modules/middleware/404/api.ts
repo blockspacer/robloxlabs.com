@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: api 404 middleware
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -46,6 +46,6 @@ export default (
 			escape(req.url) +
 			') that you requested from ' +
 			escape(req.headers['origin']) +
-			' is invalid, please contact a developer or check status on https://www.mfdlabs.com/status.ashx',
+			' is invalid, please contact a developer or check status on https://www.sitetest1.mfdlabs.com/status.ashx',
 	});
 };

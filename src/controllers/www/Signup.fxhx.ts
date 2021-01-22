@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: The current Signup function.
 			
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -26,7 +26,7 @@
 */
 
 /* 
-POST https://www.mfdlabs.com/Authentication/Signup.fxhx HTTP/2.0
+POST https://www.sitetest1.mfdlabs.com/Authentication/Signup.fxhx HTTP/2.0
 X-CSRF-TOKEN: token123
 Content-Type: application/x-www-form-urlencoded
 Connection: close

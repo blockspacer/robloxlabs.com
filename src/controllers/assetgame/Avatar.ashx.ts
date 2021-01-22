@@ -2,9 +2,9 @@
 	FileName: Avatar.ashx.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://assetgame.mfdlabs.com/Thumbs/Avatar.ashx
+	Description: https://assetgame.sitetest1.mfdlabs.com/Thumbs/Avatar.ashx
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -29,6 +29,6 @@ export default {
 	dir: '/Thumbs/Avatar.ashx',
 	method: 'all',
 	func: async (_req, res) => {
-		return res.redirect('http://assetgame.mfdlabs.com/thumbs/defaultimage.png');
+		return res.redirect('http://assetgame.sitetest1.mfdlabs.com/thumbs/defaultimage.png');
 	},
 };

@@ -2,11 +2,11 @@
 	FileName: get-captcha-hashes.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://api.mfdlabs.com/captcha/v1/get-image-hashes,
+	Description: https://api.sitetest1.mfdlabs.com/captcha/v1/get-image-hashes,
 
 	TODO Implement this for captcha front end
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 

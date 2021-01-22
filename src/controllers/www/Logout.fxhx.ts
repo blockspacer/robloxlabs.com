@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: The current Logout function.
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -26,7 +26,7 @@
 */
 
 /*
-POST https://www.mfdlabs.com/Authentication/Logout.fxhx HTTP/2.0
+POST https://www.sitetest1.mfdlabs.com/Authentication/Logout.fxhx HTTP/2.0
 X-CSRF-TOKEN: token123
 Content-Type: application/x-www-form-urlencoded
 Connection: close
@@ -104,7 +104,7 @@ export default {
 		response.shouldKeepAlive = false;
 		return response
 			.status(200)
-			.clearCookie('authId', { domain: 'mfdlabs.com' })
+			.clearCookie('authId', { domain: 'sitetest1.mfdlabs.com' })
 			.send({ success: true, message: 'Success', userfacingmessage: 'Success' });
 	},
 };

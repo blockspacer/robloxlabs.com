@@ -2,9 +2,9 @@
 	FileName: createOrGetXsrfSession.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://api.mfdlabs.com/csrf/v1/get-csrf-token,
+	Description: https://api.sitetest1.mfdlabs.com/csrf/v1/get-csrf-token,
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	Implements flags:
 	DFFlagIsCSRFV2Enabled

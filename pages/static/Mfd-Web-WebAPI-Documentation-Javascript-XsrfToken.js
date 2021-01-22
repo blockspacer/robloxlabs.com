@@ -52,7 +52,7 @@ document.Mfd.XsrfToken = (function () {
 	}
 
 	function registerToken() {
-		$.ajax('https://api.mfdlabs.com/csrf/v1/get-csrf-token', {
+		$.ajax('https://api.sitetest1.mfdlabs.com/csrf/v1/get-csrf-token', {
 			crossDomain: true,
 			method: 'POST',
 			success: (_b, _s, response) => {

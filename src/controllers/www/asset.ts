@@ -2,9 +2,9 @@
 	FileName: asset.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://www.mfdlabs.com/asset/
+	Description: https://www.sitetest1.mfdlabs.com/asset/
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -30,7 +30,7 @@ export default {
 	method: 'all',
 	func: (req, res): void => {
 		if (req.query.id === '1') {
-			res.redirect('http://static.mfdlabs.com/rbx/1.rbxlx');
+			res.redirect('http://static.sitetest1.mfdlabs.com/rbx/1.rbxlx');
 			return;
 		}
 		res.redirect(`https://assetdelivery.roblox.com/v1/asset?${req.url.split('?')[1]}`);

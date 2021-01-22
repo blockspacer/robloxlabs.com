@@ -2,9 +2,9 @@
 	FileName: GetCurrentUser.ashx.ts
 	Written By: Nikita Nikolaevich Petko
 	File Type: Module
-	Description: https://assetgame.mfdlabs.com/game/GetCurrentUser.ashx
+	Description: https://assetgame.sitetest1.mfdlabs.com/game/GetCurrentUser.ashx
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 

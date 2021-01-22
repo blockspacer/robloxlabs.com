@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: Add global directories to this file when you don't want to keep typing it in.
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 
@@ -25,5 +25,5 @@
 	***
 */
 
-export const _dirname = 'C:\\dev\\web\\mfdlabs.com';
+export const _dirname = 'C:\\dev\\web\\sitetest1.mfdlabs.com';
 export const _sslname = _dirname + '\\ssl';

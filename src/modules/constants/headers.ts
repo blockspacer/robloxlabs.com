@@ -4,7 +4,7 @@
 	File Type: Module
 	Description: Add global headers that all responses should have to this file when you don't want to keep typing it in.
 
-	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/mfdlabs.com
+	All commits will be made on behalf of mfd-co to https://github.com/mfd-core/sitetest1.mfdlabs.com
 
 	***
 

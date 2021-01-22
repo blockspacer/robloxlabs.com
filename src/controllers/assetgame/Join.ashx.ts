@@ -25,7 +25,7 @@ export default {
 			PlaceId: parseInt(_req.query['placeId']) || 1,
 			MeasurementUrl: '',
 			WaitingForCharacterGuid: '00000000-0000-0000-0000-000000000000',
-			BaseUrl: 'http://www.mfdlabs.com/',
+			BaseUrl: 'http://www.sitetest1.mfdlabs.com/',
 			ChatStyle: 'Classic',
 			VendorId: 0,
 			ScreenShotInfo: '',
